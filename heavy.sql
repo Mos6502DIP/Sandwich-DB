@@ -9,5 +9,6 @@ CREATE TABLE IF NOT EXISTS Sandwiches (
     blog TEXT NOT NULL UNIQUE,
     author TEXT,
     thumbnail TEXT,
-    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP -- Added timestamp for record creation
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- Added timestamp for record creation
+    title TEXT
 );

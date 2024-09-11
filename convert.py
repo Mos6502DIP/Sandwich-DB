@@ -20,9 +20,9 @@ for sandwich_name, sandwich_data in data.items():
     print(f'Sandwich Name: {sandwich_name}, Title: {title}, Description: {description}, Date: {date}, Thumbnail: {thumbnail}')
     # Insert into the database
     cursor.execute('''
-        INSERT OR IGNORE INTO sandwiches (name, description, blog, author, thumbnail, date)
-        VALUES (?, ?, ?, ?, ?, ?)
-    ''', (title, description, blog, author, thumbnail, date))
+        INSERT OR IGNORE INTO sandwiches (name, description, blog, author, thumbnail, date, title)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
+    ''', (sandwich_name, description, blog, author, thumbnail, date, title))
 
 # Commit the changes and close the connection
 conn.commit()
