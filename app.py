@@ -1,4 +1,5 @@
 from flask import *
+import sqlite3
 import json
 from werkzeug.utils import secure_filename
 import os
@@ -11,7 +12,27 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static/thumbnails/'
 
 
+def get_sandwiches():
 
+    conn = sqlite3.connect('sandwich.db')
+    cursor = conn.cursor()
+    query = "SELECT * FROM Sandwiches"
+    cursor.execute(query)
+    rows = cursor.fetchall()
+    print(rows)
+    sandwiches = {}
+    for sandwich in rows:
+        print(sandwich)
+        sandwiches[sandwich[1]] = {}
+        sandwiches[sandwich[1]]['Description'] = sandwich[2]
+        sandwiches[sandwich[1]]['Blog'] = sandwich[3]
+        sandwiches[sandwich[1]]['Author'] = sandwich[4]
+        sandwiches[sandwich[1]]['thumbnail'] = sandwich[5]
+        sandwiches[sandwich[1]]['Date'] = sandwich[6]
+
+    print(sandwiches)
+    conn.close()
+    return load_json("blogs.json")
 
 def load_json(filename):
     with open(filename) as f:
@@ -32,7 +53,7 @@ def get_date():
 
 @app.route('/')
 def dashboard():  # put application's code here
-    blogs = load_json("blogs.json")
+    blogs = get_sandwiches()
     return render_template("landing.html", blogs=blogs)
 
 @app.route('/upload', methods=['GET', 'POST'])
@@ -70,7 +91,7 @@ def upload_blog():  # put application's code here
 
 @app.route('/blog/<string:blog_title>')
 def blog(blog_title):
-    blogs = load_json('blogs.json')
+    blogs = get_sandwiches()
     if blog_title in blogs:
         image = blogs[blog_title]["thumbnail"]
         print(image)

@@ -15,6 +15,7 @@ img {
   width: 900px;
 }
 
+
 .disclaimer {
     text-align: center;
     padding-top: 100px;
@@ -24,15 +25,18 @@ img {
 }
 
 body > .grid {
-      height: 90%;
+      height: 100%;
     }
-    .image {
-      margin-top: -100px;
-    }
+
     .column {
       max-width: 450px;
     }
 
+
 .linkSeparator hr {
   size: 5px;
+}
+
+.form-group {
+    padding: 15px;
 }
