@@ -1,0 +1,177 @@
+{
+  "Classic Ham Sandwich": {
+    "Title": "The Simplicity of the Classic Ham Sandwich",
+    "Description": "A timeless sandwich made with ham, cheese, and a dash of mustard on freshly baked bread.",
+    "Date": "09/09/2024-15:00:01",
+    "thumbnail": "thumbnails/sandwich1.jpg",
+    "Blog": "The classic ham sandwich is an all-time favorite. Its simplicity is what makes it great—just a few slices of good ham, some cheese, a light spread of mustard, and you have a sandwich that satisfies. You can use different types of bread depending on your mood, from a simple white loaf to a crusty baguette. Add a few fresh vegetables for crunch, and it's even better. \n\nReview: Strength: Great introduction to a timeless sandwich. Highlights simplicity and variations. Improvement: Could mention types of ham or cheese to enhance flavor."
+  },
+  "Grilled Cheese Extravaganza": {
+    "Title": "Melty Cheese Bliss",
+    "Description": "Golden, crispy bread with gooey melted cheese inside — the ultimate comfort food.",
+    "Date": "09/09/2024-15:10:17",
+    "thumbnail": "thumbnails/sandwich2.jpg",
+    "Blog": "Grilled cheese is the ultimate comfort food. Simple, yet immensely satisfying. Use a variety of cheeses like cheddar, mozzarella, or gouda for different flavors. Cook it on medium heat to get that perfect golden-brown crust while keeping the inside gooey and melted. Serve with a bowl of tomato soup for the ultimate rainy-day meal. \n\nReview: Strength: Perfect description of comfort food. Highlights different cheese options. Improvement: Could mention types of bread or extra add-ons like bacon or tomato."
+  },
+  "Turkey Avocado Club": {
+    "Title": "Healthy and Delicious: Turkey Avocado Club",
+    "Description": "A hearty sandwich filled with turkey, avocado, bacon, and fresh vegetables.",
+    "Date": "09/09/2024-15:20:03",
+    "thumbnail": "thumbnails/sandwich3.jpg",
+    "Blog": "The turkey avocado club is a great option for a healthy yet filling lunch. Turkey provides lean protein, while avocado offers healthy fats. Add crispy bacon, lettuce, tomatoes, and mayonnaise for extra flavor. It's perfect on whole grain bread or a toasted ciabatta roll for a bit of crunch. \n\nReview: Strength: Highlights health benefits and balanced flavors. Improvement: Could mention optional dressings or seasoning to enhance taste."
+  },
+  "BLT Sandwich": {
+    "Title": "Crispy Bacon, Lettuce, and Tomato: The BLT",
+    "Description": "A crispy, crunchy, and flavorful BLT sandwich that never fails.",
+    "Date": "09/09/2024-15:30:19",
+    "thumbnail": "thumbnails/sandwich4.jpg",
+    "Blog": "The BLT is a simple yet classic sandwich. Crispy bacon, fresh lettuce, and juicy tomatoes come together with a spread of mayo on toasted bread. For extra flavor, try adding avocado or a fried egg. It's the perfect sandwich for when you want something quick but packed with flavor. \n\nReview: Strength: Nice explanation of classic elements with potential variations. Improvement: Could explore different kinds of bacon (smoked, maple) for depth."
+  },
+  "Philly Cheesesteak": {
+    "Title": "The Classic Philly Cheesesteak",
+    "Description": "Sliced steak, melted cheese, and grilled onions in a hearty sandwich roll.",
+    "Date": "09/09/2024-15:40:05",
+    "thumbnail": "thumbnails/sandwich1.jpg",
+    "Blog": "The Philly cheesesteak is a hearty, filling sandwich. Thinly sliced beefsteak, grilled onions, and melted cheese are packed into a hoagie roll for a delicious bite every time. Traditionally, Cheez Whiz is used, but provolone or American cheese works just as well. It's a go-to for meat lovers and great with a side of fries. \n\nReview: Strength: Captures the essence of the Philly Cheesesteak with cheese options. Improvement: Could mention peppers or mushrooms as popular additions."
+  },
+  "Caprese Sandwich": {
+    "Title": "Fresh and Light: The Caprese Sandwich",
+    "Description": "Tomatoes, mozzarella, basil, and balsamic glaze on fresh ciabatta bread.",
+    "Date": "09/09/2024-15:50:11",
+    "thumbnail": "thumbnails/sandwich2.jpg",
+    "Blog": "If you’re looking for something fresh and light, the Caprese sandwich is the perfect choice. Sliced tomatoes, fresh mozzarella, and basil leaves are the stars here. Drizzle with olive oil and balsamic glaze, and layer it all on fresh ciabatta bread. It's like eating a salad, but in sandwich form. \n\nReview: Strength: Clearly describes fresh ingredients with a good balance of flavors. Improvement: Could suggest other bread options like focaccia or adding pesto."
+  },
+  "Meatball Sub": {
+    "Title": "The Hearty Meatball Sub",
+    "Description": "Juicy meatballs, marinara sauce, and melted mozzarella in a toasted sub roll.",
+    "Date": "09/09/2024-16:00:34",
+    "thumbnail": "thumbnails/sandwich3.jpg",
+    "Blog": "A meatball sub is perfect for when you need something filling. Juicy meatballs are cooked in marinara sauce, then stuffed into a toasted sub roll and topped with melted mozzarella. For an extra kick, sprinkle some red pepper flakes or add a few slices of pepperoni. It’s messy, but worth it! \n\nReview: Strength: Great description of a filling, classic sandwich. Improvement: Could mention different types of cheese or additional toppings."
+  },
+  "Chicken Caesar Wrap": {
+    "Title": "A Twist on a Classic: Chicken Caesar Wrap",
+    "Description": "Grilled chicken, Caesar dressing, romaine lettuce, and Parmesan in a tortilla wrap.",
+    "Date": "09/09/2024-16:10:50",
+    "thumbnail": "thumbnails/sandwich4.jpg",
+    "Blog": "The Chicken Caesar wrap takes everything you love about a Caesar salad and wraps it up in a convenient handheld meal. Grilled chicken, crisp romaine lettuce, Caesar dressing, and shaved Parmesan are rolled into a tortilla for a perfect lunch or light dinner. You can also add croutons for extra crunch! \n\nReview: Strength: Combines Caesar salad flavors into a portable wrap. Improvement: Could explore other dressing options or include more vegetables."
+  },
+  "Pulled Pork Sandwich": {
+    "Title": "Slow-Cooked Goodness: The Pulled Pork Sandwich",
+    "Description": "Tender pulled pork with BBQ sauce, coleslaw, and pickles on a soft bun.",
+    "Date": "09/09/2024-16:20:26",
+    "thumbnail": "thumbnails/sandwich1.jpg",
+    "Blog": "Pulled pork sandwiches are a BBQ lover’s dream. The pork is slow-cooked until tender and juicy, then mixed with BBQ sauce. Serve it on a soft bun with a scoop of coleslaw and some pickles for a bit of tang. It's a messy but delicious experience, especially when paired with a cold drink. \n\nReview: Strength: Describes a flavorful, hearty sandwich. Improvement: Could mention different BBQ sauce varieties or side options."
+  },
+  "Egg Salad Sandwich": {
+    "Title": "The Classic Egg Salad Sandwich",
+    "Description": "Creamy egg salad with a hint of mustard and mayonnaise on soft bread.",
+    "Date": "09/09/2024-16:30:45",
+    "thumbnail": "thumbnails/sandwich2.jpg",
+    "Blog": "Egg salad sandwiches are simple but satisfying. Made with chopped boiled eggs, mayonnaise, a dash of mustard, and seasoning, this sandwich is creamy and rich. Serve on soft white or whole grain bread for a quick and easy lunch. Adding lettuce or pickles can give it an extra crunch. \n\nReview: Strength: Emphasizes the classic nature of egg salad. Improvement: Could suggest variations like adding celery or herbs for extra flavor."
+  },
+  "Reuben Sandwich": {
+    "Title": "The Reuben: A Deli Favorite",
+    "Description": "Corned beef, Swiss cheese, sauerkraut, and Russian dressing on rye bread.",
+    "Date": "09/09/2024-16:40:55",
+    "thumbnail": "thumbnails/sandwich3.jpg",
+    "Blog": "The Reuben sandwich is a deli classic. Layers of corned beef, Swiss cheese, sauerkraut, and Russian dressing are grilled between slices of rye bread for a tangy, savory bite. The flavors of the salty beef and sharp sauerkraut combine beautifully with the creamy dressing. A must-try for sandwich lovers. \n\nReview: Strength: Captures the essence of the Reuben with a focus on classic ingredients. Improvement: Could mention alternatives like pastrami or different types of cheese."
+  },
+  "Veggie Delight": {
+    "Title": "A Vegetarian Dream: The Veggie Delight",
+    "Description": "A mix of fresh veggies, hummus, and avocado on whole grain bread.",
+    "Date": "09/09/2024-16:50:12",
+    "thumbnail": "thumbnails/sandwich4.jpg",
+    "Blog": "For a healthy and filling vegetarian option, the Veggie Delight is the way to go. Fresh vegetables like bell peppers, cucumbers, and spinach are paired with creamy hummus and avocado on whole grain bread. It's packed with flavor and nutrients, making it a great choice for a light lunch or snack. \n\nReview: Strength: Highlights a nutritious and tasty option. Improvement: Could suggest additional veggie or spread variations for customization."
+  },
+  "BBQ Chicken Sandwich": {
+    "Title": "The Flavorful BBQ Chicken Sandwich",
+    "Description": "Grilled chicken with BBQ sauce, cheddar cheese, and pickles on a toasted bun.",
+    "Date": "09/09/2024-17:00:34",
+    "thumbnail": "thumbnails/sandwich1.jpg",
+    "Blog": "The BBQ chicken sandwich combines smoky, sweet BBQ sauce with grilled chicken for a flavorful bite. Top with cheddar cheese and pickles, and serve on a toasted bun for extra crunch. It’s perfect for a summer BBQ or a casual weeknight dinner. \n\nReview: Strength: Describes a flavorful, crowd-pleasing option. Improvement: Could mention variations like different BBQ sauces or toppings."
+  },
+  "Cuban Sandwich": {
+    "Title": "The Cuban: A Flavorful Classic",
+    "Description": "Roast pork, ham, Swiss cheese, pickles, and mustard on Cuban bread.",
+    "Date": "09/09/2024-17:10:49",
+    "thumbnail": "thumbnails/sandwich2.jpg",
+    "Blog": "The Cuban sandwich is a delicious mix of flavors. Roast pork, ham, Swiss cheese, pickles, and mustard are layered on Cuban bread and pressed to create a crispy, warm sandwich. It’s a savory and tangy treat that’s perfect for lunch or dinner. \n\nReview: Strength: Highlights traditional Cuban flavors well. Improvement: Could suggest variations or side dishes to complement the sandwich."
+  },
+  "Pastrami on Rye": {
+    "Title": "The Classic Pastrami on Rye",
+    "Description": "Pastrami, mustard, and pickles on rye bread — a New York staple.",
+    "Date": "09/09/2024-17:20:02",
+    "thumbnail": "thumbnails/sandwich3.jpg",
+    "Blog": "Pastrami on rye is a New York deli classic. A generous portion of pastrami is piled on rye bread with a slather of mustard and some pickles on the side. It’s a simple, yet incredibly satisfying sandwich that has stood the test of time. \n\nReview: Strength: Captures the essence of a classic deli sandwich. Improvement: Could mention potential variations or regional twists."
+  },
+  "Falafel Pita": {
+    "Title": "Mediterranean Delight: The Falafel Pita",
+    "Description": "Crispy falafel balls, hummus, and fresh veggies in a pita pocket.",
+    "Date": "09/09/2024-17:30:15",
+    "thumbnail": "thumbnails/sandwich4.jpg",
+    "Blog": "The Falafel pita is a fantastic vegetarian option packed with Mediterranean flavors. Crispy falafel balls are paired with creamy hummus, fresh vegetables, and a drizzle of tahini sauce, all stuffed into a warm pita pocket. It’s a flavorful and filling sandwich that's perfect for lunch or a light dinner. \n\nReview: Strength: Offers a flavorful vegetarian option with a Mediterranean twist. Improvement: Could suggest adding other toppings or variations."
+  },
+  "Italian Sub": {
+    "Title": "The Hearty Italian Sub",
+    "Description": "A mix of Italian meats, cheeses, and vegetables on a hoagie roll.",
+    "Date": "09/09/2024-17:40:28",
+    "thumbnail": "thumbnails/sandwich1.jpg",
+    "Blog": "The Italian sub is a hearty and satisfying sandwich. Layers of Italian meats like salami, ham, and pepperoni are paired with cheeses, lettuce, tomatoes, and a drizzle of Italian dressing on a hoagie roll. It’s a robust sandwich that’s great for a filling lunch. \n\nReview: Strength: Well-balanced mix of Italian flavors. Improvement: Could mention different cheese options or additional toppings."
+  },
+  "Lobster Roll": {
+    "Title": "The Luxurious Lobster Roll",
+    "Description": "Tender lobster meat with a light mayo dressing in a buttery roll.",
+    "Date": "09/09/2024-17:50:40",
+    "thumbnail": "thumbnails/sandwich2.jpg",
+    "Blog": "The lobster roll is a luxury sandwich that features tender lobster meat mixed with a light mayo dressing, all served in a buttery roll. It’s a treat that’s perfect for a special occasion or a seafood lover’s indulgence. Serve with a side of coleslaw for a complete meal. \n\nReview: Strength: Describes a luxurious and indulgent sandwich. Improvement: Could explore regional variations or side dishes to complement it."
+  },
+  "Tuna Melt": {
+    "Title": "The Delicious Tuna Melt",
+    "Description": "Tuna salad with melted cheese on toasted bread.",
+    "Date": "09/09/2024-18:00:50",
+    "thumbnail": "thumbnails/sandwich3.jpg",
+    "Blog": "The tuna melt combines the richness of tuna salad with the gooeyness of melted cheese, creating a delightful and filling sandwich. Toast the bread first for added crunch, then pile on the tuna salad and top with your favorite cheese. Broil it until the cheese is perfectly melted. \n\nReview: Strength: Combines classic flavors into a comforting sandwich. Improvement: Could mention different types of cheese or variations of tuna salad."
+  },
+  "Avocado Toast Sandwich": {
+    "Title": "The Trendy Avocado Toast Sandwich",
+    "Description": "Mashed avocado with a sprinkle of seasoning on toasted bread, optionally topped with a poached egg.",
+    "Date": "09/09/2024-18:10:55",
+    "thumbnail": "thumbnails/sandwich4.jpg",
+    "Blog": "Avocado toast is a trendy and delicious option that can be turned into a sandwich. Mash ripe avocado and spread it over toasted bread, then season with salt, pepper, and a squeeze of lemon juice. For extra protein, top with a poached egg or some sliced tomatoes. It’s perfect for a quick and healthy meal. \n\nReview: Strength: Highlights a trendy and healthy sandwich option. Improvement: Could suggest additional toppings or seasoning variations."
+  },
+  "Muffuletta": {
+    "Title": "The Hearty Muffuletta",
+    "Description": "An Italian sandwich with a mix of meats, cheeses, and a tangy olive salad on round bread.",
+    "Date": "09/09/2024-18:20:30",
+    "thumbnail": "thumbnails/sandwich1.jpg",
+    "Blog": "The Muffuletta is a New Orleans classic that combines layers of Italian meats, cheeses, and a tangy olive salad, all served on a round loaf of bread. It’s a hearty and flavorful sandwich that’s perfect for feeding a crowd or for enjoying as a substantial meal. \n\nReview: Strength: Describes a classic and flavorful sandwich. Improvement: Could mention variations or tips for making it at home."
+  },
+  "French Dip": {
+    "Title": "The Savory French Dip",
+    "Description": "Roast beef served on a baguette with a side of au jus for dipping.",
+    "Date": "09/09/2024-18:30:45",
+    "thumbnail": "thumbnails/sandwich2.jpg",
+    "Blog": "The French Dip is a savory sandwich featuring tender roast beef on a baguette, served with a side of au jus for dipping. The flavors are enhanced by the rich, beefy broth, making each bite a delight. It’s perfect for a hearty lunch or dinner. \n\nReview: Strength: Highlights the savory elements and dipping sauce. Improvement: Could explore different types of beef or variations of dipping sauces."
+  },
+  "Crispy Chicken Sandwich": {
+    "Title": "The Crispy Chicken Sandwich",
+    "Description": "Breaded and fried chicken breast with lettuce, tomato, and mayonnaise on a bun.",
+    "Date": "09/09/2024-18:40:55",
+    "thumbnail": "thumbnails/sandwich3.jpg",
+    "Blog": "The crispy chicken sandwich is a popular choice for its satisfying crunch and flavorful chicken. A breaded and fried chicken breast is paired with fresh lettuce, tomato, and a dollop of mayonnaise, all served on a soft bun. It’s a delicious and filling option for any meal. \n\nReview: Strength: Emphasizes the satisfying crunch and flavor. Improvement: Could suggest variations like spicy chicken or additional toppings."
+  },
+  "Pita Pocket": {
+    "Title": "The Versatile Pita Pocket",
+    "Description": "Stuffed pita bread with a choice of meats, veggies, and sauces.",
+    "Date": "09/09/2024-18:50:05",
+    "thumbnail": "thumbnails/sandwich4.jpg",
+    "Blog": "The pita pocket is a versatile sandwich that can be filled with a variety of ingredients. Choose from grilled meats, fresh veggies, and your favorite sauces to create a personalized meal. It's perfect for a quick lunch or a casual dinner, and it's easy to customize to suit your taste. \n\nReview: Strength: Highlights versatility and customization options. Improvement: Could mention specific combinations or fillings for inspiration."
+  },
+  "Cuban Panini": {
+    "Title": "The Crispy Cuban Panini",
+    "Description": "Roast pork, ham, Swiss cheese, pickles, and mustard pressed in a panini.",
+    "Date": "09/09/2024-19:00:15",
+    "thumbnail": "thumbnails/sandwich1.jpg",
+    "Blog": "The Cuban Panini is a pressed version of the classic Cuban sandwich. It features roast pork, ham, Swiss cheese, pickles, and mustard pressed between slices of crusty bread. The panini press gives it a crispy exterior and melty interior, making it a delicious twist on a traditional favorite. \n\nReview: Strength: Captures the essence of a classic Cuban with a panini twist. Improvement: Could explore different types of bread or variations in filling."
+  }
+}

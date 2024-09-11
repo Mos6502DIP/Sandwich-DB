@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="{{url_for('static', filename='tf2.jpg')}}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js" integrity="sha512-Xo0Jh8MsOn72LGV8kU5LsclG7SUzJsWGhXbWcYs2MAmChkQzwiW/yTQwdJ8w6UA9C6EVG18GHb/TrYpYCjyAQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css" integrity="sha512-KXol4x3sVoO+8ZsWPFI/r5KBVB/ssCGB5tsv2nVOKwLg33wTFP3fmnXa47FdSVIshVTgsYk/1734xSk9aFIa4A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js">
+       </script>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <title>Sandwich DB - {% block page_name %}{% endblock %}</title>
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <div class="ui menu">
+        <div class="item"><a href="/">Home</a></div>
+        <div class="item"><a href="/upload">Upload a sandwich.</a></div>
+        <div class="item"><a href="/about">About a sandwich DB.</a></div>
+    </div>
+
+
+
+
+    {% block content %}{% endblock %}
+
+    <div class="disclaimer">
+        <p>Sandwich info has been generated with chat gtp</p>
+    </div>
+</body>
+</html>

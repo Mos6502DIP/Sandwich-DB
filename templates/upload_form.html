@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block page_name %}Submit{% endblock %}
+
+{% block content %}
+    <div class="ui middle aligned center aligned grid">
+          <div class="column">
+              <h2 class="ui image header">
+              <div class="content">
+                Upload a sandwich
+              </div>
+            </h2>
+            <form class="ui large form" action="/upload" method="post" enctype="multipart/form-data">
+                <div class="ui stacked secondary  segment">
+                    <div class="form-group">
+                        <label for="blog_name">Title</label><br>
+                        <input type="text" id="blog_name" name="blog_name"><br>
+                    </div>
+
+                    <div class="form-group">
+                            <label for="description">Blog Description</label>
+                            <textarea id="description" name="description" rows="4" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                            <label for="blog">Blog</label>
+                            <textarea id="blog" name="blog" rows="15" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="thumbnail">Thumbnail</label>
+                        <input type="file" id="file" name="file" accept="image/*" required>
+                    </div>
+
+                    <button type="submit">Upload Bog</button>
+                </div>
+            </form>
+          </div>
+    </div>
+{% endblock %}

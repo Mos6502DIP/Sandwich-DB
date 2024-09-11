@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block page_name %}Home{% endblock %}
+
+{% block content %}
+    <h1>Welcome Sandwich DB</h1>
+
+    <div class="ui items">
+    {% for blog in blogs %}
+
+      <div class="item">
+        <div class="image">
+          <img class="ui medium rounded image" src="{{url_for('static', filename=blogs[blog]["thumbnail"])}}">
+        </div>
+        <div class="content">
+
+          <a href="{{ "blog/"+blog }}" class="header">{{ blog }}</a>
+          <div class="meta">
+            <span>{{ blogs[blog]["Description"] }}</span>
+          </div>
+          <div class="description">
+            <p></p>
+          </div>
+          <div class="extra">
+            {{ blogs[blog]["Date"] }}
+          </div>
+        </div>
+      </div>
+
+      <hr class="linkSeparator">
+
+    {% endfor %}
+
+    </div>
+
+{% endblock %}
