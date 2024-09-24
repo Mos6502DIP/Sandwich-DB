@@ -1,36 +1,52 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
 
 {% block page_name %}Home{% endblock %}
 
 {% block content %}
-    <h1>Welcome Sandwich DB</h1>
-
-    <div class="ui items">
-    {% for blog in blogs %}
-
-      <div class="item">
-        <div class="image">
-          <img class="ui medium rounded image" src="{{url_for('static', filename=blogs[blog]["thumbnail"])}}">
-        </div>
-        <div class="content">
-
-          <a href="{{ "blog/"+blog }}" class="header">{{ blog }}</a>
-          <div class="meta">
-            <span>{{ blogs[blog]["Description"] }}</span>
-          </div>
-          <div class="description">
-            <p></p>
-          </div>
-          <div class="extra">
-            {{ blogs[blog]["Date"] }}
-          </div>
-        </div>
-      </div>
-
-      <hr class="linkSeparator">
-
-    {% endfor %}
+    <div class="banner-container">
+      <img class="banner" src="{{url_for('static', filename='banner.jpg')}}" alt="Sandwich" >
+      <div class="centered">Welcome to sandwich DB</div>
 
     </div>
+
+    <div class="image-text-container">
+
+            <img class="image-tea" src="{{url_for('static', filename='tea_sandwich.webp')}}">
+
+          <div class="text-for-image">
+            <h1>Why sandwich DB</h1>
+              <p>I made sandwich db because i can, it features all of your favorite sandwiches if you can't find it add it.<br>
+
+              </p>
+          </div>
+    </div>
+    <br>
+    <hr class="content-separate">
+    <div class="recommends">
+
+        <h1>Here is 12 random sandwiches</h1>
+
+            <div class="ui link cards">
+                    {% for item in blogs %}
+
+                      <div class="ui card">
+                        <a class="image" href="/blog/{{ item }}">
+                            <img src="{{url_for('static', filename=blogs[item]["thumbnail"])}}">
+                        </a>
+                        <div class="content">
+                          <a class="header" href="/blog/{{ item }}">{{ item }}</a>
+                          <div class="meta">
+                            <a>Date {{ blogs[item]["Date"] }}</a>
+                          </div>
+                          <div class="description">
+                            {{ blogs[item]["Description"] }}
+                          </div>
+                        </div>
+
+                      </div>
+                    {% endfor %}
+                </div>
+        </div>
+
 
 {% endblock %}

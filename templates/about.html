@@ -4,14 +4,16 @@
 
 {% block content %}
     <div class="blog">
-        <h1>About sandwich DB</h1>
-        <br>
-        <img  src="{{url_for('static', filename="thumbnails/ruben.jpeg")}}">
+        <div class="banner-container">
+            <img class="banner" src="{{url_for('static', filename='reuben.jpeg')}}" alt="Sandwich" >
+            <div class="centered">About us</div>
+
+        </div>
         <br>
         <div class="blog_p">
             <p>Sandwich DB is the best place for sandwich lovers because it offers a comprehensive and curated collection of
-        sandwich recipes, tips, and information all in one convenient location. Whether you’re looking for classic
-        comfort foods or innovative new creations, Sandwich DB provides detailed recipes, helpful tips, and even user
+        sandwich, tips, and information all in one convenient location. Whether you’re looking for classic
+        comfort foods or innovative new creations, Sandwich DB provides helpful tips, and even user
         reviews to help you make the perfect sandwich every time. Its easy-to-navigate interface ensures you can quickly
         find exactly what you’re looking for, making it an indispensable resource for anyone who loves sandwiches.</p>
         </div>

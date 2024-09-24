@@ -4,8 +4,9 @@
 
 {% block content %}
     <div class="blog">
-        <h1>{{ blog_title }}</h1>
-        <h2>{{ blog["Description"] }}</h2>
+        <h1 class="blogheading">{{ blog_title }}</h1>
+        <h2 style="padding: 50px">{{ blog["Description"] }}</h2>
+        <p>Sandwich by {{ blog['Author'] }}</p>
         <br>
         <img  src="{{url_for('static', filename=image)}}">
         <br>

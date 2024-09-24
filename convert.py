@@ -1,11 +1,10 @@
 import json
 import sqlite3
 
-# Connect to SQLite (creates database if it doesn't exist)
 conn = sqlite3.connect('sandwich.db')
 cursor = conn.cursor()
 
-# Load JSON data from the file
+
 with open('blogs.json', 'r') as file:
     data = json.load(file)
 
@@ -24,6 +23,6 @@ for sandwich_name, sandwich_data in data.items():
         VALUES (?, ?, ?, ?, ?, ?, ?)
     ''', (sandwich_name, description, blog, author, thumbnail, date, title))
 
-# Commit the changes and close the connection
+
 conn.commit()
 conn.close()
