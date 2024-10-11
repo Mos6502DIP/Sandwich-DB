@@ -37,14 +37,6 @@ git clone https://github.com/MOS6502DIP/Sandwich-DB.git
 cd Sandwich-DB
 ```
 
-### Install Dependencies
-
-Install Flask and other dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
 ### Database Setup
 
 The project uses SQLite for database management. You need to create the database and tables for the project to work correctly.
